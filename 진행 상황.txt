@@ -1,0 +1,23 @@
+1. 
+ https://www.kaggle.com/datasets/Cornell-University/arxiv 
+ kaggle arxiv data 다운로드
+ 설명 : 2023년까지의 arxiv 논문 데이터.
+ => arxiv_data.json (3.7GB, 약 230만)
+
+2. 
+ https://scholar.google.com.sg/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence 
+ https://www.scimagojr.com/journalrank.php?order=item&ord=desc&category=1702
+ Good reference 추출
+ => journals.txt (약 50개의 top conference, journal)
+
+3. 
+ extract_ai_data.py 로 top AI cof/journal 에 있는 논문들만 고름.
+ => AI_data.json (13MB, 약 8천)
+
+4.
+ AI_data.json 에서 title, abstract 에 대한 embedding 시행 (ada2)
+ consine similarity 계산 후 recommendation
+ Recommendation system 1
+
+5.
+ 

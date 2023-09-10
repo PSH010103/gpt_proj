@@ -4,7 +4,7 @@ import openai
 import numpy as np
 import pandas as pd
 import json
-openai.api_key = "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"
+openai.api_key = ""
 
 
 def get_embedding(texts, model="text-embedding-ada-002"):
